@@ -1,0 +1,11 @@
+Package: RobNorm
+Type: Package
+Title: Robust ormalization
+Version: 0.1.0
+Authors@R:person("Meng", "Wang", , "mengw1@stanford.edu", role = c("aut", "cre"))
+Description: To robustly normalize samples.
+Imports: invgamma
+License: GPL-3.0
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.0.2
