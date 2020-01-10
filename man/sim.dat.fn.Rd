@@ -6,8 +6,26 @@
 \usage{
 sim.dat.fn(row.frac, col.frac, mu.up, mu.down, n, m, nu.fix = TRUE)
 }
+\arguments{
+\item{row.frac}{Outlier fraction in the rows of the expression matrix.}
+
+\item{col.frac}{Outlier fraction in the columns of the expression matrix.}
+
+\item{mu.up}{The up-shifted mean of the outliers.}
+
+\item{mu.down}{The down-shifted mean of the outliers.}
+
+\item{n}{Number of rows (genes).}
+
+\item{m}{Number of colunms (samples).}
+
+\item{nu.fix}{Logic value indicating underying nu=0 (default: TRUE).}
+}
+\value{
+Simulated data and its parameters.
+}
 \description{
-To simulation an expression matrix (details to see paper RobNorm)
+To simulation an expression matrix
 }
 \author{
 Meng Wang

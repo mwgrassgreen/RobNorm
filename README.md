@@ -14,7 +14,7 @@ Please contact Meng Wang by email <mengw1@stanford.edu> for questions.
 `norm.result = RobNorm(X.0, gamma.0=0.5, tol=10^(-4), step=200)`
 
 ## Example
-To simulate an expression matrix from sim.dat.fn() (details to see the paper)
+To simulate an expression matrix 
 
 `sim.result = sim.dat.fn(row.frac=0.2, col.frac=0.2, mu.up=3, mu.down=-3, n=5000, m=200,  nu.fix=TRUE)`
  

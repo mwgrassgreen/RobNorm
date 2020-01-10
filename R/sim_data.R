@@ -1,7 +1,15 @@
 #' @title sim.dat.fn
-#' @description To simulation an expression matrix (details to see paper RobNorm)
+#' @description To simulation an expression matrix
 #' @author Meng Wang
 #' \email{mengw1@stanford.edu}
+#' @param row.frac Outlier fraction in the rows of the expression matrix.
+#' @param col.frac Outlier fraction in the columns of the expression matrix.
+#' @param mu.up The up-shifted mean of the outliers.
+#' @param mu.down The down-shifted mean of the outliers.
+#' @param n Number of rows (genes).
+#' @param m Number of colunms (samples).
+#' @param nu.fix Logic value indicating underying nu=0 (default: TRUE).
+#' @return Simulated data and its parameters.
 #' @import invgamma
 #' @export
 
