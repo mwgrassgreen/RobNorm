@@ -11,7 +11,7 @@ Please contact Meng Wang by email <mengw1@stanford.edu> for questions.
 ## Usage
 `library(RobNorm)`
 
-`norm.result = RobNorm(input.mx, gamma.0=0.5, tol=10^(-4), step=200)`
+`norm.result = RobNorm(X.0, gamma.0=0.5, tol=10^(-4), step=200)`
 
 ## Example
 To simulate an expression matrix from sim.dat.fn() (details to see the paper)
