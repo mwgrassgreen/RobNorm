@@ -53,12 +53,12 @@ RobNorm = function (X.0, gamma.0=0.5, tol=10^(-4), step=200) {
 
 		# to break the iterations if some sigma-squared is too small (locally trapped)    
 		if(min(sigma2.new, na.rm=TRUE) < 10^(-10)) {
-	         Mu.0 = NULL
+	             Mu.0 = NULL
 		     Nu.0 = NULL
 		     sigma2.0 =NULL
 		     divergence.int = NULL
 		     para.diff.int = NULL
-            break;
+                     stop("the pre-chosen gamma is large, to choose a smaller nonnegative gamma")
 	    }
 	    
 	    # to udpate nu     
