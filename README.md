@@ -33,3 +33,8 @@ To compare sample boxplots before and after normalization
 `boxplot(X.0.norm, main="Sample boxplots after normalization", ylab="expression", xlab="sample", cex.main=1.5, cex.lab=1.5)`
 
 Since in the simulation nu.fix=TRUE meaning the underlying nu = 0, the boxplots before and after normalization.
+
+## More information
+After the normalization step, to check our [AdaTiSS](https://github.com/mwgrassgreen/AdaTiSS) package for calcualizating robust z-score for each condition.
+
+For more statistical analysis, to check our [AdaReg](https://github.com/mwgrassgreen/AdaReg) package.
